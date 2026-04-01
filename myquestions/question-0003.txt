@@ -1,0 +1,16 @@
+El Problema:
+Recibes un DataFrame con dos columnas: "fecha" (datetime) y "ventas" (float). Necesitas detectar días donde la venta diaria supera en más de un 50% a su media móvil de los últimos 7 días (ventana semanal).
+
+Tu Misión:
+Escribe una función llamada detectar_quiebres_ventas que realice lo siguiente:
+
+1. Reciba un DataFrame df con las columnas "fecha" y "ventas".
+2. Asegúrese de que la columna "fecha" es de tipo datetime y ordene el DataFrame por fecha.
+3. Calcule la media móvil de 7 días (rolling mean) de la columna "ventas".
+4. Compare el valor real de "ventas" con la media móvil del día anterior (para evitar data leakage, usa shift(1)). Un día es un "quiebre" si ventas > 1.5 * media_movil_anterior.
+5. Cuente el número total de días (filas) que cumplen esta condición.
+6. Devuelva ese número entero.
+
+Nombre de la función: detectar_quiebres_ventas
+Argumentos: df (pd.DataFrame)
+Retorno: int (número de días con quiebre)

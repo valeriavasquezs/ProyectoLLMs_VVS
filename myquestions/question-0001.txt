@@ -1,0 +1,15 @@
+El Problema:
+Recibes un DataFrame con dos columnas numéricas: "numero_practica" (número de intento o sesión) y "puntuacion" (puntaje obtenido). Se sabe que, en teoría, a mayor práctica, la puntuación no debería disminuir. Debes modelar esta relación garantizando la monotonicidad.
+
+Tu Misión:
+Escribe una función llamada ajustar_curva_aprendizaje que realice lo siguiente:
+
+1. Reciba un DataFrame df con las columnas "numero_practica" y "puntuacion".
+2. Ordene el DataFrame por "numero_practica" de forma ascendente.
+3. Entrene un modelo de regresión isotónica (IsotonicRegression de sklearn.isotonic) utilizando los datos ordenados.
+4. Calcule el Error Absoluto Medio (MAE) entre las puntuaciones reales y las predicciones del modelo sobre los mismos datos de entrada.
+5. Devuelva el valor del MAE (un número flotante).
+
+Nombre de la función: ajustar_curva_aprendizaje
+Argumentos: df (pd.DataFrame)
+Retorno: float (MAE)

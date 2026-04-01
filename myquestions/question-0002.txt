@@ -1,0 +1,15 @@
+El Problema:
+Tienes un DataFrame con una columna objetivo continua y varias características numéricas. Has entrenado un modelo de regresión, pero quieres entender qué variables son más importantes. Para ello, usarás el método de importancia por permutación.
+
+Tu Misión:
+Escribe una función llamada calcular_importancia_permutacion que realice lo siguiente:
+
+1. Reciba un DataFrame df y el nombre de la columna objetivo target_col.
+2. Separe las características (X) y la variable objetivo (y). Asume que todas las columnas excepto target_col son numéricas.
+3. Entrene un modelo RandomForestRegressor (con n_estimators=50 y random_state=42) usando TODOS los datos.
+4. Calcule la importancia de cada variable usando permutation_importance de sklearn.inspection, con n_repeats=5 y random_state=42.
+5. Devuelva un array de numpy con los valores de importancia promedio para cada característica, en el MISMO orden que las columnas de X.
+
+Nombre de la función: calcular_importancia_permutacion
+Argumentos: df (pd.DataFrame), target_col (str)
+Retorno: np.ndarray (array 1D de importancias)

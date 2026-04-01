@@ -1,0 +1,16 @@
+El Problema:
+Recibes dos DataFrames (df1 y df2) con las mismas columnas numéricas. Representan dos muestras de un mismo fenómeno. Quieres medir qué tan diferente es la dirección de máxima varianza entre ellas. Para ello, calcularás el ángulo entre el primer vector propio de la matriz de covarianza de cada conjunto.
+
+Tu Misión:
+Escribe una función llamada angulo_primeras_componentes que realice lo siguiente:
+
+1. Reciba dos DataFrames (df1, df2). Asume que ambos contienen las mismas columnas numéricas.
+2. Para cada DataFrame, ajuste un modelo PCA de sklearn.decomposition con n_components=1 (para obtener solo el primer vector de componentes).
+3. Extraiga el vector de la primera componente de cada modelo (es un array 1D).
+4. Calcule el ángulo (en radianes) entre estos dos vectores usando la fórmula del coseno: ángulo = arccos( abs(dot_product(v1, v2)) / (norma(v1) * norma(v2)) ).
+   Nota: Usa el valor absoluto del producto punto para considerar que las direcciones opuestas son equivalentes.
+5. Devuelva el ángulo como un número flotante.
+
+Nombre de la función: angulo_primeras_componentes
+Argumentos: df1 (pd.DataFrame), df2 (pd.DataFrame)
+Retorno: float (ángulo en radianes)
