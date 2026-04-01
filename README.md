@@ -7,19 +7,21 @@
 Este repositorio contiene las 4 preguntas creadas para la FASE 1 del proyecto "Programación con LLMs".
 
 ## Estructura del repositorio
+```
 proyecto1-llm/
 ├── README.md
 ├── myquestions/
-│ ├── question-0001.txt
-│ ├── question-0001-usecase-generator.py
-│ ├── question-0002.txt
-│ ├── question-0002-usecase-generator.py
-│ ├── question-0003.txt
-│ ├── question-0003-usecase-generator.py
-│ ├── question-0004.txt
-│ └── question-0004-usecase-generator.py
+│   ├── question-0001.txt
+│   ├── question-0001-usecase-generator.py
+│   ├── question-0002.txt
+│   ├── question-0002-usecase-generator.py
+│   ├── question-0003.txt
+│   ├── question-0003-usecase-generator.py
+│   ├── question-0004.txt
+│   └── question-0004-usecase-generator.py
 └── myanswers/
-└── (vacío para FASE 2)
+    └── (vacío para FASE 2)
+```
 
 
 ## Preguntas creadas
