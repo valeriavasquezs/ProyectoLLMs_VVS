@@ -1,1 +1,35 @@
-Todas las soluciones fueron validadas localmente contra los generadores de casos de uso y produjeron resultados correctos en todos los casos de prueba.
+DIAGNÓSTICO DE SOLUCIONES - FASE 2
+
+Las 3 soluciones fueron validadas localmente contra los generadores de casos de uso y produjeron resultados correctos en todos los casos de prueba.
+
+SOLUCIONES CORRECTAS (validadas con el validador de Colab)
+- answer-0276.py: output matches ✓
+- answer-0304.py: output matches ✓
+- answer-0535.py: output matches ✓
+
+PREGUNTA NO DISPONIBLE
+La cuarta pregunta asignada apunta al siguiente repositorio:
+https://github.com/mariangelurzola-cmyk/questionsLLMs/blob/main/myquestions/question-0003.txt
+
+Al intentar acceder a este enlace, el repositorio no estaba disponible
+(página de error 404 - repositorio no encontrado o privado).
+
+Pasos que intenté para resolver la situación:
+
+1. Acceder directamente al repositorio en múltiples ocasiones en
+   distintos días, sin éxito. El repositorio no es público o fue eliminado.
+
+2. Al no poder ver el enunciado de la pregunta (question-0003.txt) ni
+   el generador de casos de uso correspondiente, es imposible:
+   - Conocer qué función hay que desarrollar
+   - Saber qué argumentos recibe ni qué debe devolver
+   - Validar cualquier solución contra el generador de casos de uso
+
+3. Se intentó contactar a la autora del repositorio por correo
+   institucional y por WhatsApp, sin obtener respuesta antes de la
+   fecha de entrega.
+
+La imposibilidad de acceder al repositorio es una
+circunstancia ajena a mi voluntad que impide completamente desarrollar
+esta solución, ya que sin el enunciado y sin el generador de casos de
+uso no existe forma de saber qué problema resolver ni cómo verificarlo.
